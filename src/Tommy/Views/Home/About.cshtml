@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+<h3>@ViewData["Message"]</h3>
+
+
+<p>This is my first attempt with ASP.NET MVC 6 with Visual Studio 2015. The application is using the razor view engine and
+     the Entity Framework for data access. <p>
+    <p>The SQL Server LocalDB is used, and to create the Customer database I used these dnx commands:</p>
+<p>dnu restore<br />
+dnvm use 1.0.0-rc1-final -p<br />
+dnx ef migrations add Initial<br />
+dnx ef database update</p>
+
