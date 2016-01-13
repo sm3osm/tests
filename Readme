@@ -1,0 +1,12 @@
+Customer application
+
+My first attempt with ASP.NET MVC 6 with Visual Studio 2015. The application is using the razor view engine and the Entity
+Framework for data access.
+
+The SQL Server LocalDB is used. To create the database from the Customer class, I used these dnx commands:
+
+dnu restore
+dnvm use 1.0.0-rc1-final -p
+dnx ef migrations add Initial
+dnx ef database update
+
